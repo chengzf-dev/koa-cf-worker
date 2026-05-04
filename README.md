@@ -15,4 +15,8 @@ https://www.uber.com/en-SG/blog/
 https://aws.amazon.com/blogs/
 https://blog.cloudflare.com/
 https://engineering.fb.com/
+<<<<<<< HEAD
 twitter + youtube
+=======
+twitter + youtube
+>>>>>>> 9a3af2c (Initial commit)

@@ -1,0 +1,30 @@
+{
+  // Wrangler 配置文件 - 支持 Node.js HTTP 模块
+  "name": "koa-cf-worker-260117",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-09-01",
+
+  // Node.js 兼容性设置
+  "compatibility_flags": ["nodejs_compat"],
+
+  // 环境变量配置
+  "vars": {
+    "NODE_ENV": "production"
+  },
+
+  // 环境配置
+  "env": {
+    "production": {
+      "name": "koa-cf-worker-prod"
+    },
+    "preview": {
+      "name": "koa-cf-worker-preview"
+    }
+  },
+  "observability": {
+    "logs": {
+      "enabled": false,
+      "invocation_logs": true
+    }
+  }
+}
