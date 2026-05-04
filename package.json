@@ -1,0 +1,35 @@
+{
+  "name": "koa-cf-worker-260117",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "deploy": "wrangler deploy",
+    "deploy:preview": "wrangler deploy --env preview",
+    "deploy:production": "wrangler deploy --env production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0",
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20251014.0",
+    "koa": "^3.0.3",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.21.0",
+    "@types/koa": "^3.0.0",
+    "vite": "^7.3.1",
+    "wrangler": "^4.59.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "http-errors": "2.0.1"
+    }
+  }
+}
